@@ -27,6 +27,10 @@ Linux ubuntu 4.15.0-20-generic
   | 进程保护         | 2333   | pid      |
   | 取消进程保护     | 2233   | pid      |
 
+* 提权
+  commit_creds(prepare_kernel_cred(0));
+  ![](https://img.tangent.ink/20211021234545.png)
+
 * 隐藏/取消隐藏进程
 
   维护了一个双向链表hiddenPID，把需要隐藏的pid信息添加到链表，对链表节点的增加和删除就可以达到隐藏或者取消隐藏的效果。 
