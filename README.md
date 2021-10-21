@@ -66,7 +66,7 @@ Linux ubuntu 4.15.0-20-generic
   getdents系统调用从文件描述符fd的目录中读取多个Linux_dirent结构，读取到dirp指向的缓冲区。
 
   可以通过hook getdents函数，添加对于文件名的判断，来实现隐藏文件的功能。
-  ![](https://img.tangent.ink/20211021213517.png)
+  ![](https://img.tangent.ink/20211021230826.png)
 
 * 端口保护/取消端口保护
 
